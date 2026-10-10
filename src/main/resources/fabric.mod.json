@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "henclient",
+  "version": "${version}",
+  "name": "HenClient",
+  "description": "A sleek client-side utility mod with freecam, storage ESP, combat assists, and underground anomaly scans.",
+  "authors": ["HenClient"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.henclient.HenClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
